@@ -3,14 +3,17 @@ package com.sap.piper
 import hudson.AbortException
 import java.io.File
 
+def _fileExists(dir) {
+    return fileExists(dir)
+}
 
 class FileUtils implements Serializable {
 
     static validateDirectory(dir) {
-        retun fileExists(dir)
+        return _fileExists(dir)
     }
 
     static validateDirectoryIsNotEmpty(dir) {
-        retun fileExists(dir)
+        return _fileExists(dir)
     }
 }
