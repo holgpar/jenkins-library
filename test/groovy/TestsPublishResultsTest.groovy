@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertEquals as ae
 import com.sap.piper.BashUtils
 import org.junit.After
 import org.junit.Before
