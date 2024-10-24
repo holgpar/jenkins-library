@@ -1,4 +1,6 @@
 import static com.sap.piper.Prerequisites.checkScript
+import static com.sap.piper.Prerequisites.checkScript as x
+// foo
 import static com.sap.piper.BashUtils.quoteAndEscape as q
 
 import com.sap.piper.GenerateDocumentation
